@@ -5,8 +5,8 @@ Welcome to the source code for my personal portfolio website — a showcase of m
 ---
 
 
-## 🛠️ Tech Stack
+## 🛠️ Tech
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
