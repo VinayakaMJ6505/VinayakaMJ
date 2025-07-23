@@ -4,18 +4,6 @@ Welcome to the source code for my personal portfolio website — a showcase of m
 
 ---
 
-## 📌 Features
-
-- ✅ Responsive design (mobile + desktop)
-- ✅ Smooth scrolling and active nav link highlight
-- ✅ Preloader animation
-- ✅ Resume download button
-- ✅ Hover animations on education and project cards
-- ✅ Floating contact buttons (WhatsApp, LinkedIn)
-- ✅ Dark theme with accent highlights
-- ✅ Lazy section fade-in animation with IntersectionObserver
-
----
 
 ## 🛠️ Tech Stack
 
