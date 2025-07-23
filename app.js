@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   const body = document.body;
 
-  // ✅ PRELOADER: Remove after load
   window.addEventListener("load", () => {
     body.classList.add("loaded");
   });
 
-  // ✅ Inject Image and Resume paths dynamically
   const logoImg = document.getElementById("logo-img");
   const profileImg = document.getElementById("profile-img");
   const resumeLink = document.getElementById("resume-link");
@@ -18,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     resumeLink.setAttribute("download", "resume.pdf");
   }
 
-  // ✅ Inject Navbar HREFs dynamically
   const navLinks = document.querySelectorAll(".navbar a");
   const navTargets = ["home", "about", "skills", "education", "projects"];
   navLinks.forEach((link, i) => {
@@ -27,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // ✅ SMOOTH SCROLLING + CLOSE MENU
   document.querySelectorAll(".navbar a").forEach(link => {
     link.addEventListener("click", (e) => {
       e.preventDefault();
@@ -39,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // ✅ ACTIVE NAV LINK HIGHLIGHT
   const sections = document.querySelectorAll("section");
 
   const setActiveLink = () => {
@@ -53,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   window.addEventListener("scroll", setActiveLink);
 
-  // ✅ FADE-IN SECTIONS ON SCROLL
   const fadeEls = document.querySelectorAll(".section");
   const fadeObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
