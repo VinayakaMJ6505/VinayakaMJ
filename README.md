@@ -2,11 +2,6 @@
 
 Welcome to the source code for my personal portfolio website — a showcase of my skills, education, and projects as an aspiring full stack developer. Built using HTML, CSS, and JavaScript, this site represents my journey and growth in web development.
 
-## 🚀 Live Demo
-
-[🔗 View Portfolio Website](https://your-username.github.io/your-repo-name/)  
-<!-- Replace with your actual GitHub Pages URL after hosting -->
-
 ---
 
 ## 📌 Features
@@ -41,7 +36,9 @@ Welcome to the source code for my personal portfolio website — a showcase of m
   │ └── profile.jpg
   └── resume.pdf
 
-  ## 📸 Screenshot
+---
+
+## 📸 Screenshot
 
 ![Portfolio Screenshot](assets/images/screenshot.png)  
 
